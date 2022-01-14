@@ -12,6 +12,7 @@ public class Person {
     public void setName(String name) {
         if(name.isBlank() || name.isEmpty() || name == null){
             System.err.println("Invalid name "+name);
+            System.exit(1);
         }
         this.name = name;
     }
@@ -23,6 +24,7 @@ public class Person {
     public void setAge(int age) {
         if(age<0 || age >120){
             System.err.println("Invalid age "+age);
+            System.exit(1);
         }
         this.age = age;
     }
@@ -34,6 +36,7 @@ public class Person {
     public void setGender(char gender) {
         if(!(gender=='M'|| gender=='F')){
             System.err.println("Invalid gender "+gender);
+            System.exit(1);
         }
         this.gender = gender;
     }
