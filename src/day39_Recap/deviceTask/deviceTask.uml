@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>day39_Recap.deviceTask</OriginalElement>
+  <nodes>
+    <node x="1159.0" y="319.0">day39_Recap.deviceTask.Nokia</node>
+    <node x="714.0" y="215.0">day39_Recap.deviceTask.TV</node>
+    <node x="0.0" y="418.0">day39_Recap.deviceTask.MyDevices</node>
+    <node x="1344.0" y="319.0">day39_Recap.deviceTask.Iphone</node>
+    <node x="250.5" y="215.0">day39_Recap.deviceTask.Computer</node>
+    <node x="518.0" y="319.0">day39_Recap.deviceTask.Desktop</node>
+    <node x="966.0" y="319.0">day39_Recap.deviceTask.Google</node>
+    <node x="228.0" y="319.0">day39_Recap.deviceTask.PersonalComputer</node>
+    <node x="0.0" y="319.0">day39_Recap.deviceTask.Laptop</node>
+    <node x="1138.5" y="215.0">day39_Recap.deviceTask.Phone</node>
+    <node x="1536.0" y="319.0">day39_Recap.deviceTask.SamSung</node>
+    <node x="703.0" y="0.0">day39_Recap.deviceTask.Device</node>
+    <node x="754.0" y="319.0">day39_Recap.deviceTask.BlackBeery</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="day39_Recap.deviceTask.Nokia" target="day39_Recap.deviceTask.Phone" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.Google" target="day39_Recap.deviceTask.Phone" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="1052.5" y="294.0" />
+      <point x="1241.5" y="294.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.TV" target="day39_Recap.deviceTask.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.Computer" target="day39_Recap.deviceTask.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="363.0" y="190.0" />
+      <point x="807.0" y="190.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.BlackBeery" target="day39_Recap.deviceTask.Phone" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="850.0" y="294.0" />
+      <point x="1241.5" y="294.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.Desktop" target="day39_Recap.deviceTask.Computer" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="626.0" y="294.0" />
+      <point x="363.0" y="294.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.Laptop" target="day39_Recap.deviceTask.Computer" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="104.0" y="294.0" />
+      <point x="363.0" y="294.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.Iphone" target="day39_Recap.deviceTask.Phone" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="1430.0" y="294.0" />
+      <point x="1241.5" y="294.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.SamSung" target="day39_Recap.deviceTask.Phone" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="1628.5" y="294.0" />
+      <point x="1241.5" y="294.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.PersonalComputer" target="day39_Recap.deviceTask.Computer" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="day39_Recap.deviceTask.Phone" target="day39_Recap.deviceTask.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="1241.5" y="190.0" />
+      <point x="807.0" y="190.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8052843193566915" showDependencies="false" x="860.5" y="236.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

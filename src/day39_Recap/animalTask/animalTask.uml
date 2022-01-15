@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>day39_Recap.animalTask</OriginalElement>
+  <nodes>
+    <node x="210.0" y="158.0">day39_Recap.animalTask.Crocodile</node>
+    <node x="873.0" y="158.0">day39_Recap.animalTask.Parrot</node>
+    <node x="785.75" y="79.0">day39_Recap.animalTask.FriendlyAnimal</node>
+    <node x="0.0" y="158.0">day39_Recap.animalTask.Tiger</node>
+    <node x="750.0" y="158.0">day39_Recap.animalTask.Dolphin</node>
+    <node x="262.0" y="79.0">day39_Recap.animalTask.WildAnimal</node>
+    <node x="544.5" y="0.0">day39_Recap.animalTask.Animal</node>
+    <node x="983.0" y="158.0">day39_Recap.animalTask.Dog</node>
+    <node x="0.0" y="232.0">day39_Recap.animalTask.Zoo</node>
+    <node x="442.0" y="158.0">day39_Recap.animalTask.Bear</node>
+    <node x="541.0" y="158.0">day39_Recap.animalTask.Python</node>
+    <node x="344.0" y="158.0">day39_Recap.animalTask.Lion</node>
+    <node x="104.0" y="158.0">day39_Recap.animalTask.Eagle</node>
+    <node x="658.0" y="158.0">day39_Recap.animalTask.Cat</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="day39_Recap.animalTask.Cat" target="day39_Recap.animalTask.FriendlyAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="694.0" y="133.0" />
+      <point x="859.75" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.Python" target="day39_Recap.animalTask.WildAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="589.5" y="133.0" />
+      <point x="325.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.Lion" target="day39_Recap.animalTask.WildAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="383.0" y="133.0" />
+      <point x="325.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.Dolphin" target="day39_Recap.animalTask.FriendlyAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="801.5" y="133.0" />
+      <point x="859.75" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.Bear" target="day39_Recap.animalTask.WildAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="481.5" y="133.0" />
+      <point x="325.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.Dog" target="day39_Recap.animalTask.FriendlyAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="1022.5" y="133.0" />
+      <point x="859.75" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.WildAnimal" target="day39_Recap.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="325.0" y="54.0" />
+      <point x="592.5" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.Parrot" target="day39_Recap.animalTask.FriendlyAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="918.0" y="133.0" />
+      <point x="859.75" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.FriendlyAnimal" target="day39_Recap.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="859.75" y="54.0" />
+      <point x="592.5" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.Eagle" target="day39_Recap.animalTask.WildAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="147.0" y="133.0" />
+      <point x="325.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.Tiger" target="day39_Recap.animalTask.WildAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="42.0" y="133.0" />
+      <point x="325.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day39_Recap.animalTask.Crocodile" target="day39_Recap.animalTask.WildAnimal" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="267.0" y="133.0" />
+      <point x="325.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="531.0" y="130.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
