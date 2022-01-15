@@ -39,7 +39,7 @@ public class Zoo {
         dog.eat();
         dog.drink();
         dog.bark();
-        
+
         tiger.hunt();
         tiger.eat();
 
