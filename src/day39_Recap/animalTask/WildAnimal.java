@@ -17,5 +17,17 @@ public class WildAnimal extends Animal{
         System.out.println(getName()+" is hunting");
     }
 
-
+    @Override
+    public String toString() {
+        return "Wild Animal{" +
+                "name='" + getName() + '\'' +
+                ", breed='" + getBreed() + '\'' +
+                ", gender=" + getGender() +
+                ", age=" + getAge() +
+                ", size='" + getSize() + '\'' +
+                ", color='" + getColor() + '\'' +
+                ", is Wild='" + isWild+ '\'' +
+                ", is Friendly='" + isFriendly + '\'' +
+                '}';
+    }
 }
