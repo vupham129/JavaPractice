@@ -50,22 +50,22 @@ public class CydeoStudent extends Student{
 
     @Override
     public void eat() {
-        System.out.println(getName()+" "+getBatchNumber()+ " is eating Muhtar's breakfast, lunch, and dinner");
+        System.out.println(getName()+" batch "+getBatchNumber()+ " is eating Muhtar's breakfast, lunch, and dinner");
     }
 
     @Override
     public void drink() {
-        System.out.println(getName()+" "+getBatchNumber()+" is drinking coffee to be awake to do tasks");
+        System.out.println(getName()+" batch "+getBatchNumber()+" is drinking coffee to be awake to do tasks");
     }
 
     @Override
     public void sleep() {
-        System.out.println(getName()+" "+getBatchNumber()+" only sleep 4 hours a day before graduating");
+        System.out.println(getName()+" batch "+getBatchNumber()+" only sleep 4 hours a day before graduating");
     }
 
     @Override
     public void study() {
-        System.out.println(getName()+" "+getBatchNumber()+" is studying Java programming language");
+        System.out.println(getName()+" batch "+getBatchNumber()+" is studying Java programming language");
     }
 
     @Override
