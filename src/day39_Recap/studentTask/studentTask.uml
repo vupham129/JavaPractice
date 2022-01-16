@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>day39_Recap.studentTask</OriginalElement>
+  <nodes>
+    <node x="0.0" y="949.5">day39_Recap.studentTask.UndergraduateStudent</node>
+    <node x="405.00000000000006" y="949.5">day39_Recap.studentTask.GraduateStudent</node>
+    <node x="801.9361459521097" y="949.5">day39_Recap.studentTask.CydeoStudent</node>
+    <node x="0.0" y="1215.0">day39_Recap.studentTask.StudentObjects</node>
+    <node x="429.00000000000006" y="392.0">day39_Recap.studentTask.Student</node>
+    <node x="494.00000000000006" y="0.0">day39_Recap.studentTask.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="day39_Recap.studentTask.UndergraduateStudent" target="day39_Recap.studentTask.Student" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="192.5" y="781.0" />
+      <point x="581.5" y="781.0" />
+      <point x="0.0" y="182.0" />
+    </edge>
+    <edge source="day39_Recap.studentTask.Student" target="day39_Recap.studentTask.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-182.0" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="day39_Recap.studentTask.GraduateStudent" target="day39_Recap.studentTask.Student" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="182.0" />
+    </edge>
+    <edge source="day39_Recap.studentTask.CydeoStudent" target="day39_Recap.studentTask.Student" relationship="GENERALIZATION">
+      <point x="0.0" y="-182.0" />
+      <point x="991.4361459521097" y="781.0" />
+      <point x="581.5" y="781.0" />
+      <point x="0.0" y="182.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6684451219512195" showDependencies="false" x="578.5" y="646.0" />
+  <SelectedNodes>
+    <node>day39_Recap.studentTask.CydeoStudent</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
