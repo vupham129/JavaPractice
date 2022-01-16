@@ -2,8 +2,8 @@ package day39_Recap.statesTask;
 
 public class Florida extends States{
 
-    public Florida(String name, String abbreviation, String politicalParty, String governor, String senator, double population, double stateTax) {
-        super(name, abbreviation, politicalParty, governor, senator, population, stateTax);
+    public Florida( String abbreviation, String politicalParty, String governor, String senator, double population, double stateTax) {
+        super("Florida", abbreviation, politicalParty, governor, senator, population, stateTax);
     }
 
     public void humid(){

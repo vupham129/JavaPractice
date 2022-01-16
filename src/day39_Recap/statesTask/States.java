@@ -107,7 +107,7 @@ public class States {
                 ", governor='" + governor + '\'' +
                 ", senator='" + senator + '\'' +
                 ", population=" + population + " million" +
-                ", stateTax=" + stateTax +
+                ", stateTax=" + stateTax + "%" +
                 '}';
     }
 }
