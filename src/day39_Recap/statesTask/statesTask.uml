@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>day39_Recap.statesTask</OriginalElement>
+  <nodes>
+    <node x="520.75" y="0.0">day39_Recap.statesTask.States</node>
+    <node x="361.0" y="259.0">day39_Recap.statesTask.Virginia</node>
+    <node x="712.0" y="259.0">day39_Recap.statesTask.Florida</node>
+    <node x="1058.0" y="259.0">day39_Recap.statesTask.Texas</node>
+    <node x="0.0" y="259.0">day39_Recap.statesTask.California</node>
+    <node x="0.0" y="358.0">day39_Recap.statesTask.StatesObject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="day39_Recap.statesTask.Texas" target="day39_Recap.statesTask.States" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="1218.0" y="234.0" />
+      <point x="700.75" y="234.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="day39_Recap.statesTask.California" target="day39_Recap.statesTask.States" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="170.5" y="234.0" />
+      <point x="700.75" y="234.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="day39_Recap.statesTask.Florida" target="day39_Recap.statesTask.States" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="875.0" y="234.0" />
+      <point x="700.75" y="234.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="day39_Recap.statesTask.Virginia" target="day39_Recap.statesTask.States" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="526.5" y="234.0" />
+      <point x="700.75" y="234.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="689.0" y="206.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
