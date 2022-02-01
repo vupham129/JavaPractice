@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>day43_Abstraction.shapeTask</OriginalElement>
+  <nodes>
+    <node x="392.0" y="184.0">day43_Abstraction.shapeTask.Rectangle</node>
+    <node x="70.0" y="200.0">day43_Abstraction.shapeTask.Square</node>
+    <node x="-195.0" y="205.0">day43_Abstraction.shapeTask.Circle</node>
+    <node x="183.5" y="-153.0">day43_Abstraction.shapeTask.Shape</node>
+    <node x="-183.5" y="425.0">day43_Abstraction.shapeTask.ShapeObjects</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="day43_Abstraction.shapeTask.Square" target="day43_Abstraction.shapeTask.Shape" relationship="GENERALIZATION">
+      <point x="0.0" y="-71.5" />
+      <point x="149.0" y="179.0" />
+      <point x="258.0" y="179.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="day43_Abstraction.shapeTask.Circle" target="day43_Abstraction.shapeTask.Shape" relationship="GENERALIZATION">
+      <point x="0.0" y="-71.5" />
+      <point x="-110.0" y="168.0" />
+      <point x="258.0" y="168.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="day43_Abstraction.shapeTask.Rectangle" target="day43_Abstraction.shapeTask.Shape" relationship="GENERALIZATION">
+      <point x="0.0" y="-93.5" />
+      <point x="488.5" y="168.0" />
+      <point x="258.0" y="168.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="280.5" y="251.0" />
+  <SelectedNodes>
+    <node>day43_Abstraction.shapeTask.ShapeObjects</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
