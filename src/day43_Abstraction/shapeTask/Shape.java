@@ -1,14 +1,21 @@
 package day43_Abstraction.shapeTask;
 
 public abstract class Shape {
-    private final String name;
+    private String name;
 
     public Shape(String name) {
-        this.name = name;
+        setName(name);
     }
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name){
+        if(name.isEmpty()||name.isBlank()){
+            throw new RuntimeException("Invalid name: "+name);
+        }
+        this.name = name;
     }
 
     public abstract double area();
